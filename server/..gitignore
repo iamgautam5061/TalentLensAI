@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Environment variables - NEVER commit this
+.env
+
+# Resume uploads - contains sensitive candidate data
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
